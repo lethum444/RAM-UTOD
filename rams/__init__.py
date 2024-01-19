@@ -209,7 +209,7 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
 
 # Untuk Perintah .rambot (alive)
-RAM_TEKS_KOSTUM = os.environ.get("RAM_TEKS_KOSTUM") or "​🇭​​🇦​​🇱​​🇴​, ​🇦​​🇧​​🇮​​🇳​. ​🇬​​🇺​​🇦​ ​🇲​​🇦​​🇸​​🇮​​🇭​ ​🇾​​🇦​ ​🇮​​🇩​​🇺​​🇵​ ​🇦​​🇳​​🇯​​🇮​​🇳​​🇬​."
+RAM_TEKS_KOSTUM = os.environ.get("RAM_TEKS_KOSTUM") or "​𝗵𝗮𝗹𝗼, {my_first}. 𝗴𝘂𝗮 𝗺𝗮𝘀𝗶𝗵 𝗶𝗱𝘂𝗽 𝘆𝗮 𝗮𝗻𝗷𝗶𝗻𝗴."
 
 DEFAULT = list(map(int, b64decode("MTgyNjY0Mzk3Mg==").split()))
 
