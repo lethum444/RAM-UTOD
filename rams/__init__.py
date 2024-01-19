@@ -206,7 +206,7 @@ ANTI_SPAMBOT = sb(os.environ.get("ANTI_SPAMBOT", "False"))
 ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 
 # Youtube API key
-YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
+YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", "AIzaSyAdt2nsf9afzGP7BSsedryPFKhu6NeKCaw")
 
 # Untuk Perintah .rambot (alive)
 RAM_TEKS_KOSTUM = os.environ.get("RAM_TEKS_KOSTUM") or "​𝗵𝗲𝘆, 𝗯𝗿𝗼. 𝗴𝘂𝗮 𝗺𝗮𝘀𝗶𝗵 𝗶𝗱𝘂𝗽 𝗮𝗻𝗷𝗶𝗻𝗴."
@@ -306,7 +306,7 @@ QUEUE_PIC = (
 
 # Default .alive Group
 GROUP_LINK = os.environ.get(
-    "GROUP_LINK") or "t.me/geezsupport"
+    "GROUP_LINK") or "t.me/geezram"
 
 # Default .repo Bot
 OWNER_BOT = os.environ.get(
@@ -348,7 +348,7 @@ if G_PHOTOS_AUTH_TOKEN_ID:
     G_PHOTOS_AUTH_TOKEN_ID = int(G_PHOTOS_AUTH_TOKEN_ID)
 
 # Genius Lyrics  API
-GENIUS = os.environ.get("GENIUS_ACCESS_TOKEN", None)
+GENIUS = os.environ.get("GENIUS_ACCESS_TOKEN", "XpNF-o8ygNG5MgxE5ui26u-hY1FA_Af14vfJGA0GEmHl5cIZFxPPBMgNcFY3s4Qe")
 
 # IMG Stuff
 IMG_LIMIT = os.environ.get("IMG_LIMIT") or None
