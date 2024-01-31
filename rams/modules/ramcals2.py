@@ -1,6 +1,7 @@
 # RAM-UBOT RECODE
 # From Mrismanaziz
 
+from yt_dlp import YoutubeDL
 from pytgcalls import StreamType
 from pytgcalls.types import Update
 from pytgcalls.types.input_stream import AudioPiped, AudioVideoPiped
